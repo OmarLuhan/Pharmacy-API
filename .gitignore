@@ -1,0 +1,9 @@
+.idea
+.vs
+bin
+obj
+.env.dev
+publish
+appsettings.Development.json
+wwwroot/
+farmaweb-firebase.json

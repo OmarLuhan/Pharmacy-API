@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Recuperación de Contraseña</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #dfdede;
+        }
+        .container {
+            max-width: 400px !important;
+            margin: 0 auto !important;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .logo-container {
+            background-color: #00aebc;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            max-width: 80%;
+            height: 150px;
+            width: 150px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .action-button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00aebc;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 50px;
+            background-color: #dfdede;
+            color: #666666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<main class="container">
+    <section>
+        <div class="logo-container">
+            <img class="logo" src="[urlLogo]" alt="Company Logo"/>
+        </div>
+    </section>
+    <section class="content">
+        <h1 style="font-size: 24px; color: #333333;">Hola [nombre],</h1>
+        <p style="font-size: 16px; color: #666666; line-height: 1.5;">
+            Has solicitado la recuperación de tu contraseña. Aquí están tus datos de acceso:
+            <span style="color: #666666; font-style: italic">Recuerda no compartirlos con nadie</span>:
+        </p>
+        <p style="margin-top: 20px; margin-bottom: 20px;">
+            <span style="display: block; text-align: left;">
+                <strong>Usuario:</strong> [usuario]
+            </span>
+            <span style="display: block; text-align: left;">
+                <strong>Contraseña:</strong> [clave]
+            </span>
+        </p>
+        <p>
+            Te recomendamos cambiar tu contraseña una vez inicies sesión.
+        </p>
+        <a href="[urlActionBtn]" class="action-button">
+            Ir a la página
+        </a>
+        <p>
+            Si el botón no funciona, copia y pega el siguiente enlace en tu navegador:<br/>
+            <a href="#" style="color: #00aebc; text-decoration: none;">[urlText]</a>
+        </p>
+        <p>
+            Si tienes alguna pregunta, simplemente responde a este correo electrónico; siempre estaremos felices de
+            ayudarte.
+        </p>
+        <p>Saludos,<br/>Grupo CrisFarma</p>
+    </section>
+</main>
+<footer class="footer">
+    <p>
+        Recibiste este correo electrónico porque solicitaste la recuperación de tu contraseña.
+    </p>
+    <p>
+        Si no realizaste esta solicitud, por favor, ignora este correo o
+        <a href="#" style="color: #00aebc; text-decoration: none;">contacta con soporte</a>.
+    </p>
+    <p>Jr · San Francisco · ANX Retamas Parcoy Pataz</p>
+</footer>
+</body>
+</html>
+Last edited just now
+
+
